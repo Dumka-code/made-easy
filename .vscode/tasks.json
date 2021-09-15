@@ -1,9 +1,10 @@
 {
 	"version": "2.0.0",
+	
 	"tasks": [
 		{
-			"type": "cppbuild",
-			"label": "C/C++: g++.exe build active file",
+			"type": "shell",
+			"label": "g++.exe build active file",
 			"command": "C:\\msys64\\mingw64\\bin\\g++.exe",
 			"args": [
 				"-g",
@@ -12,7 +13,7 @@
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
-				"cwd": "${fileDirname}"
+				"cwd": "C:\\msys64\\mingw64\\bin"
 			},
 			"problemMatcher": [
 				"$gcc"
@@ -22,6 +23,27 @@
 				"isDefault": true
 			},
 			"detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
+
+
+			
+		},
+		
+		{
+			"type": "shell",
+			"label": "g++.exe build active file",
+			"command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "C:\\msys64\\mingw64\\bin"
+			}
+
+			
 		}
-	]
+
+	],
 }
