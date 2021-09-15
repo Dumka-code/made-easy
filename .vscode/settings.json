@@ -1,3 +1,6 @@
 {
-    "git.allowForcePush": true
+    "git.allowForcePush": true,
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }
