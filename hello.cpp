@@ -12,7 +12,7 @@
        system("color 70");
  cout << "\t \n Hello its Precious B \n " ;
  cin >> one ;
-  while( one == "a" ) {cout<< "error" ;  
+  while( one == "a" ) {cout<< "error404" ;  
   break; }
   
   return 0;
