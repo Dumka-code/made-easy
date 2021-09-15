@@ -1,3 +1,5 @@
 // hello.cpp is the main file for made-easy
 
-#include 
+#include <iostream>
+   using namespace std;
+   
